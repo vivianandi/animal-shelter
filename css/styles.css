@@ -2,10 +2,6 @@ body {
   font-family: sans-serif;
 }
 
-img {
-  float: left;
-}
-
 .sidebar {
   width: 30%;
   float: right;
@@ -15,22 +11,24 @@ img {
 .column1 {
   width: 300px;
   float: left;
+  margin: 12px;
+  border: 2px solid green;
+  padding: 4px;
 }
 
 .column2 {
   width: 300px;
   float: right;
-}
-.my-class {
-  border: 2px solid green;
-  padding: 10px;
-  background-color: orange;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
+  margin: 12px;
+  border: 2px dotted blue;
+  padding: 4px;
 }
 
-.centered-image {
-  width: 50%;
-  height: auto;
+.column3 {
+  width: 300px;
+  float: right;
+  margin: 12px;
+  border: 2px solid yellow;
+  padding: 4px;
+  margin: auto;
 }
